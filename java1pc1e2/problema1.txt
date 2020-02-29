@@ -1,0 +1,3 @@
+Se citeste de la tastatura cate o linie, pana se intalneste linia "STOP".
+Fiecare linie citita, in afara de cea de oprire va fi scrisa pe cate o linie
+intr-un fisier "log.txt"
