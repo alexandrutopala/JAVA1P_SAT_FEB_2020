@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CommandLine
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=base\ param
+comment2.target=java.nio.file.Path\ getResolvedPath(java.nio.file.Path,\ java.lang.String)
+comment3.params=input
+comment3.target=java.lang.String\ concatStrings(java.lang.String[])
+comment4.params=start
+comment4.target=void\ recursiveDelete(java.nio.file.Path)
+numComments=5
