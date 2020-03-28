@@ -1,0 +1,4 @@
+1. Folosind RecusrsiveAction din Fork/Join Framework, afisazi in paralele elementele unei colectii.
+   (in loc fork() folositi invokeAll())
+
+2. Comparati Collections.max() vs MaxTask folosit cu Fork/Join pt un numar f mare de elemente (~1M)
