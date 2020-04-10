@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12103aff-aa89-4e3c-9344-b567a69c32bb" name="Default Changelist" comment="" />
+    <list default="true" id="12103aff-aa89-4e3c-9344-b567a69c32bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tema/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tema/MergeSortTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tema/MergeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tema/produs/MergeProdusTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tema/produs/MergeSortProduseTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tema/produs/Produs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../curs 4/java1pc4_ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../curs 4/java1pc4_ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths$LinuxPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths$LinuxPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths$WindowsPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths$WindowsPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java1Pc6e1/factory/Paths.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1a47NTQJS7ppLjuQ93Rl7ieIFKQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,48 +43,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Exemplu6">
-    <configuration name="Exemplu2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="registry.Exemplu2" />
-      <module name="java1Pc6e1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="registry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exemplu3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.Exemplu3" />
-      <module name="java1Pc6e1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exemplu4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.Exemplu4" />
-      <module name="java1Pc6e1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tema.produs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MergeSortProduseTimeTest">
     <configuration name="Exemplu5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory.Exemplu5" />
       <module name="java1Pc6e1" />
@@ -92,13 +79,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tema.MergeSort" />
+      <module name="java1Pc6e1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tema.produs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortProduseTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tema.produs.MergeSortProduseTimeTest" />
+      <module name="java1Pc6e1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tema.produs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tema.MergeSortTimeTest" />
+      <module name="java1Pc6e1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tema.produs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortProduseTimeTest" />
+        <item itemvalue="Application.MergeSortTimeTest" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Exemplu6" />
         <item itemvalue="Application.Exemplu5" />
-        <item itemvalue="Application.Exemplu4" />
-        <item itemvalue="Application.Exemplu3" />
-        <item itemvalue="Application.Exemplu2" />
       </list>
     </recent_temporary>
   </component>
@@ -116,29 +142,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585990901568">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586504987499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585990901568" />
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1585991298457">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586504987499" />
+    <state x="365" y="3" key="CommitChangelistDialog2" timestamp="1586507532733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585991298456" />
-    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1585991298456">
+    <state x="365" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586507532733" />
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1586506161213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585991298456" />
-    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1585991298456">
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586506161213" />
+    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1586506161213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585991298456" />
-    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1585991298456">
+    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586506161213" />
+    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1586506161213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585991298456" />
-    <state x="135" y="41" key="SettingsEditor" timestamp="1585983062412">
+    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586506161213" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1586506161213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="135" y="41" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585983062412" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586506161213" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586502824763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586502824763" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586502824763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586502824763" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586502824762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586502824762" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586502824763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586502824763" />
+    <state x="135" y="41" key="SettingsEditor" timestamp="1586503776615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="135" y="41" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586503776615" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1586503762482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586503762482" />
   </component>
 </project>
