@@ -1,9 +1,31 @@
 package factory;
 
+import java.util.Arrays;
+import java.util.List;
+
 public final class Paths {
 
     enum OS {
-        WINDOWS, LINUX
+        WINDOWS("win"),
+        LINUX("unix");
+
+        List<String> abbreviations;
+
+        OS(String ... abbreviations) {
+            this.abbreviations = List.of(abbreviations);
+        }
+
+        public static OS parseValue(String osName) {
+            return Arrays.stream(OS.values())
+                    .filter(os -> containsIgnoreCaseOneOf(osName, os.abbreviations))
+                    .findAny()
+                    .orElseThrow(IllegalArgumentException::new);
+        }
+
+        private static boolean containsIgnoreCaseOneOf(String osName, List<String> abbreviations) {
+            return abbreviations.stream()
+                    .anyMatch(abbreviation -> osName.toLowerCase().contains(abbreviation));
+        }
     }
 
     private Paths() {
@@ -20,6 +42,13 @@ public final class Paths {
             // CASE MAC: return MacPath();
             default: throw new IllegalArgumentException("Not supported");
         }
+    }
+
+    public static Path get() {
+        String osAbbreviation = System.getProperty("os.name");
+        OS os = OS.parseValue(osAbbreviation);
+
+        return get(os);
     }
 
     private static class WindowsPath implements Path {
