@@ -7,7 +7,7 @@ public final class Paths {
 
     enum OS {
         WINDOWS("win"),
-        LINUX("unix");
+        LINUX("unix", "uix");
 
         List<String> abbreviations;
 
